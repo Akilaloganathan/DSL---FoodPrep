@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" copyrightText="" modelDirectory="/PizzaPreparationTime/src" modelPluginID="PizzaPreparationTime"
+    modelName="PizzaPrepTime" importerID="org.eclipse.emf.importer.ecore" complianceLevel="6.0"
+    copyrightFields="false">
+  <foreignModel>pizzaprep.ecore</foreignModel>
+  <genPackages prefix="PizzaPrepTime" disposableProviderFactory="true" ecorePackage="pizzaprep.ecore#/">
+    <genClasses ecoreClass="pizzaprep.ecore#//Customer">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute pizzaprep.ecore#//Customer/Name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute pizzaprep.ecore#//Customer/Cell_phone"/>
+    </genClasses>
+    <genClasses ecoreClass="pizzaprep.ecore#//Order">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute pizzaprep.ecore#//Order/Name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute pizzaprep.ecore#//Order/no_of_pizzas"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference pizzaprep.ecore#//Order/customers"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference pizzaprep.ecore#//Order/restaurants"/>
+    </genClasses>
+    <genClasses ecoreClass="pizzaprep.ecore#//Restaurant">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute pizzaprep.ecore#//Restaurant/R_Name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute pizzaprep.ecore#//Restaurant/ovens"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute pizzaprep.ecore#//Restaurant/oven_capacity"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute pizzaprep.ecore#//Restaurant/oven_time"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute pizzaprep.ecore#//Restaurant/doughmaking_time"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute pizzaprep.ecore#//Restaurant/addtoppings_time"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute pizzaprep.ecore#//Restaurant/prep_time"/>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>

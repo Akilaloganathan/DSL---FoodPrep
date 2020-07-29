@@ -1,0 +1,48 @@
+context Customer
+{
+constraint HasName 
+{
+check :self.Name.isDefined()
+
+}
+
+constraint cell_phone_code
+{
+
+check :self.Cell_phone.startsWith("+1")
+}
+}
+
+context Order
+{
+constraint namecheck {
+
+guard: self.satisfies('HasName')
+
+check: self.Name.isDefined()
+
+}
+}
+context Restaurant
+{
+constraint preptime {
+
+check: self.R_Name.isDefined()
+
+fix
+
+{
+
+title: "calaculate pizza prep time"
+do
+{
+var ovens : Integer = 2;
+var oven_time : Ineteger = 5;
+var one_pizza_prep_time : Integer = 7;
+var n;
+var pizza_prep_time = one_pizza_prep_time * n ;
+
+}
+}
+}
+}

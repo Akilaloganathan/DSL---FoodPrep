@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_SIY5AHcmEeqq3MMqKnAEzg" type="Ecore" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_MeDIMHctEeqq3MMqKnAEzg" type="2001" fontName=".AppleSystemUIFont">
+    <children xmi:type="notation:DecorationNode" xmi:id="_MeDvQHctEeqq3MMqKnAEzg" type="5001"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_MeDvQXctEeqq3MMqKnAEzg" type="7001">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_MeDvQnctEeqq3MMqKnAEzg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_MeDvQ3ctEeqq3MMqKnAEzg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_MeDvRHctEeqq3MMqKnAEzg" type="7002">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_MeDvRXctEeqq3MMqKnAEzg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_MeDvRnctEeqq3MMqKnAEzg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_MeDvR3ctEeqq3MMqKnAEzg" type="7003">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_MeDvSHctEeqq3MMqKnAEzg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_MeDvSXctEeqq3MMqKnAEzg"/>
+    </children>
+    <element xmi:type="ecore:EClass" href="pizzaprep.ecore#//Customer"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MeDIMXctEeqq3MMqKnAEzg" x="64" y="152"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_MeDvSnctEeqq3MMqKnAEzg" type="2001" fontName=".AppleSystemUIFont">
+    <children xmi:type="notation:DecorationNode" xmi:id="_MeDvTHctEeqq3MMqKnAEzg" type="5001"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_MeDvTXctEeqq3MMqKnAEzg" type="7001">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_MeDvTnctEeqq3MMqKnAEzg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_MeDvT3ctEeqq3MMqKnAEzg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_MeDvUHctEeqq3MMqKnAEzg" type="7002">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_MeDvUXctEeqq3MMqKnAEzg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_MeDvUnctEeqq3MMqKnAEzg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_MeDvU3ctEeqq3MMqKnAEzg" type="7003">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_MeDvVHctEeqq3MMqKnAEzg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_MeDvVXctEeqq3MMqKnAEzg"/>
+    </children>
+    <element xmi:type="ecore:EClass" href="pizzaprep.ecore#//Order"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MeDvS3ctEeqq3MMqKnAEzg" x="160" y="8"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_MeDvVnctEeqq3MMqKnAEzg" type="2001" fontName=".AppleSystemUIFont">
+    <children xmi:type="notation:DecorationNode" xmi:id="_MeDvWHctEeqq3MMqKnAEzg" type="5001"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_MeDvWXctEeqq3MMqKnAEzg" type="7001">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_MeDvWnctEeqq3MMqKnAEzg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_MeDvW3ctEeqq3MMqKnAEzg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_MeDvXHctEeqq3MMqKnAEzg" type="7002">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_MeDvXXctEeqq3MMqKnAEzg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_MeDvXnctEeqq3MMqKnAEzg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_MeDvX3ctEeqq3MMqKnAEzg" type="7003">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_MeDvYHctEeqq3MMqKnAEzg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_MeDvYXctEeqq3MMqKnAEzg"/>
+    </children>
+    <element xmi:type="ecore:EClass" href="pizzaprep.ecore#//Restaurant"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MeDvV3ctEeqq3MMqKnAEzg" x="236" y="140"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_MeDvYnctEeqq3MMqKnAEzg" type="2003" fontName=".AppleSystemUIFont">
+    <children xmi:type="notation:DecorationNode" xmi:id="_MeEWUHctEeqq3MMqKnAEzg" type="5003"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_MeEWUXctEeqq3MMqKnAEzg" type="7009">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_MeEWUnctEeqq3MMqKnAEzg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_MeEWU3ctEeqq3MMqKnAEzg"/>
+    </children>
+    <element xmi:type="ecore:EAnnotation" href="pizzaprep.ecore#//%gmf%"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MeDvY3ctEeqq3MMqKnAEzg" x="332" y="12"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_SIY5AXcmEeqq3MMqKnAEzg"/>
+  <element xmi:type="ecore:EPackage" href="pizzaprep.ecore#/"/>
+  <edges xmi:type="notation:Connector" xmi:id="_MeemAHctEeqq3MMqKnAEzg" type="4003" source="_MeDvSnctEeqq3MMqKnAEzg" target="_MeDIMHctEeqq3MMqKnAEzg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_MefNEHctEeqq3MMqKnAEzg" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_MefNEXctEeqq3MMqKnAEzg" x="5" y="23"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_MefNEnctEeqq3MMqKnAEzg" type="6004">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_MefNE3ctEeqq3MMqKnAEzg" x="-6" y="15"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_MeemAXctEeqq3MMqKnAEzg" fontName=".AppleSystemUIFont"/>
+    <element xmi:type="ecore:EReference" href="pizzaprep.ecore#//Order/customers"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_MeemAnctEeqq3MMqKnAEzg" points="[0, 0, 75, -60]$[-75, 60, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_MezWIHctEeqq3MMqKnAEzg" id="(0.3333333333333333,1.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_MezWIXctEeqq3MMqKnAEzg" id="(0.5,0.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_MehCQHctEeqq3MMqKnAEzg" type="4003" source="_MeDvSnctEeqq3MMqKnAEzg" target="_MeDvVnctEeqq3MMqKnAEzg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_MehCQ3ctEeqq3MMqKnAEzg" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_MehCRHctEeqq3MMqKnAEzg" x="18" y="-19"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_MehCRXctEeqq3MMqKnAEzg" type="6004">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_MehCRnctEeqq3MMqKnAEzg" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_MehCQXctEeqq3MMqKnAEzg" fontName=".AppleSystemUIFont"/>
+    <element xmi:type="ecore:EReference" href="pizzaprep.ecore#//Order/restaurants"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_MehCQnctEeqq3MMqKnAEzg" points="[0, 0, -74, -60]$[74, 60, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_MezWInctEeqq3MMqKnAEzg" id="(0.6666666666666666,1.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_MezWI3ctEeqq3MMqKnAEzg" id="(0.5,0.0)"/>
+  </edges>
+</notation:Diagram>
